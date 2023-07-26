@@ -61,7 +61,7 @@ def get_uploaded_file_path(file_name):
 
 def main():
     # Provide the file name here (without the full path)
-    pdf_file_name = 'hindistan-kartvizit.pdf'
+    pdf_file_name = 'your-file'
     pdf_file_path = get_uploaded_file_path(pdf_file_name)
 
     if not os.path.isfile(pdf_file_path):
